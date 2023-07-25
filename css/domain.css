@@ -2,6 +2,7 @@
 body
 {
     font-family: 'IBM Plex Sans Arabic'; 
+    background-color:#ffffff;
 }
 main
 {
@@ -17,11 +18,16 @@ main
 {
     border:solid 2px;
     height: 50%;
-    width:calc(25%);
+    width:calc(20%);
     border:solid 2px #ababab;
     border-radius:12px;
+    transition:0.2s;
     min-width: 20%;
     text-align: center;
+}
+.cards:hover
+{
+    transform:translateY(-15px)
 }
 .offer
 {
@@ -39,7 +45,7 @@ main
     font-family: 'IBM Plex Sans Arabic'; 
     transition:0.5s;
     font-size:19px;
-    transform:translateY(-125%);
+    /* transform:translateY(-125%); */
     margin-top:150px;
     background-color:rgb(255, 255, 255);
     color:rgb(0, 0, 0);
@@ -69,7 +75,7 @@ main
 }
 #by
 {
-    transform:translateY(-210%)
+    transform:translateY(-160%)
 }
 p{
     font-size:20px;
@@ -89,16 +95,17 @@ html{
 }
 footer
 {
-    border:solid 2px;
     display:flex;
     justify-content: end;
     align-items: center;
-    height: 16vh;
+    background-color:#ffffff;
+    height: 34vh;
 }
 h4
 {
-    transform:translate(50%,-189%)
-    
+    transform:translate(50%,-189%);
+    text-decoration:overline #155bef;
+    color:#155bef;
 }
 ul
 {
@@ -130,4 +137,29 @@ ul
 .footer_links:hover
 {
     color:#155bef;
+}
+#by_2
+{
+    transform:translateY(-150%)
+}
+#by_3
+{
+    transform:translateY(-140%)
+}
+.about_fot
+{
+    margin-right:1%;
+    display:flex;
+    text-align: right;
+    flex-direction: column;
+}
+h2
+{
+    color:#155bef;
+    text-decoration:overline;
+}
+.copy_right
+{
+    text-decoration: overline 0.5px rgba(98, 97, 97, 0.575);
+    align-self: end;
 }

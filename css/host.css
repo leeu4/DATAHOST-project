@@ -1,0 +1,37 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+main
+{
+    width: 100%;
+    height: 90vh;
+    border:solid 2px;
+    display:flex;
+    gap:1.5%;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    border:solid 2px;
+    width: calc(30%);
+    height: 53.5%;
+    border:solid 2px #ababab;
+    border-radius:15px;
+    text-align: center;
+
+}
+#by
+{
+    transform:translateY(260%)
+}
+#by_1
+{
+    transform:translateY(499%);
+}
