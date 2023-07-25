@@ -60,3 +60,65 @@ nav a:hover {
    flex-direction: row-reverse;
    justify-content: left;
 }
+
+footer{
+   display:flex;
+   justify-content: end;
+   align-items: center;
+   background-color:#ffffff;
+   height: 34vh;
+   border-top: 1.5px solid #ccc;
+   margin-top: 10%;
+}
+ul
+{
+   margin-right: 3%;
+   text-align: center;
+   list-style: none;
+}
+.footer_icons
+{
+   transition:0.3s;
+   transform:translateY(60%);
+   font-size:19px;
+}
+.footer_icons:hover
+{
+   color:gray;
+   cursor: pointer;
+}
+.footer_links
+{
+   text-decoration: none;
+   color:black;
+   transition:0.2s;
+}
+.footer_links:hover
+{
+   color:#155bef;
+}
+.about_fot
+{
+   margin-right:1%;
+   display:flex;
+   text-align: right;
+   flex-direction: column;
+}
+h2
+{
+   color:#155bef;
+   text-decoration:overline;
+}
+.copy_right
+{
+   text-decoration: overline 0.5px rgba(98, 97, 97, 0.575);
+   align-self: end;
+   transform: translateX(-40%);
+}
+
+h4
+{
+    transform:translate(50%,-189%);
+    text-decoration:overline #155bef;
+    color:#155bef;
+}
