@@ -69,8 +69,65 @@ main
 }
 #by
 {
-    transform:translateY(-250%)
+    transform:translateY(-210%)
 }
 p{
     font-size:20px;
+}
+.second
+{
+    background-color:#155bef;
+    height: 14vh;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+html{
+    scroll-behavior: smooth;
+}
+footer
+{
+    border:solid 2px;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    height: 16vh;
+}
+h4
+{
+    transform:translate(50%,-189%)
+    
+}
+ul
+{
+    margin-right: 3%;
+    text-align: center;
+    list-style: none;
+}
+#h4_pages
+{
+    transform:translate(150%,-189%)
+}
+.footer_icons
+{
+    transition:0.3s;
+    transform:translateY(60%);
+    font-size:19px;
+}
+.footer_icons:hover
+{
+    color:gray;
+    cursor: pointer;
+}
+.footer_links
+{
+    text-decoration: none;
+    color:black;
+    transition:0.2s;
+}
+.footer_links:hover
+{
+    color:#155bef;
 }
