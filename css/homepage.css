@@ -19,14 +19,3 @@ span {
 .main-p {
     font-size: 17px;
 }
-
-.cards {
-    display: flex;
-    width: 100%;
-    background-color: red;
-}
-
-.card {
-    padding: 15px;
-    background-image: url('/img/domin\ bar.png');
-}
