@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hosting</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/host.css">
 </head>
-<body>
+<body dir="rtl">
     <header>
         <nav>
             <a href="domain.html">الدومينز</a>
@@ -22,8 +25,10 @@
             <h1>25.99SAR</h1>
             <h1>المميزات</h1>
             <p>Standard performance</p>
-            <p>100GB SSD Storage</p>
-            <p>Unlimited Free SSL</p>
+            <p>100GB SSD Storage<i id="storage" class="fi fi-rs-database"></i></p>
+            <p>Unlimited Free SSL<i id="sheild" class="fi fi-ss-shield-check"></i></p>
+            <p>Free email<i id="false" class="fi fi-sr-circle-xmark"></i></p>
+            <p>Monthly backups<i id="true" class="fi fi-sr-badge-check"></i></p>
             <button id="by_1" class="buy">شراء</button>
         </div>
         <div class="card">
@@ -31,10 +36,10 @@
             <h1>59.99SAR</h1>
             <h1>المميزات</h1>
             <p>Standard performance</p>
-            <p>100GB SSD Storage</p>
-            <p>Unlimited Free SSL</p>
-            <p>Daily Backups</p>
-            <p>Free Email</p>
+            <p>100GB SSD Storage<i id="storage" class="fi fi-rs-database"></i></p>
+            <p>Unlimited Free SSL<i id="sheild" class="fi fi-ss-shield-check"></i></p>
+            <p>Free Email<i id="email" class="fi fi-ss-envelope"></i></p>
+            <p>Daily Backups<i id="true" class="fi fi-sr-badge-check"></i></p>
             <button id="by" class="buy">شراء</button>
         </div>
     </main>
@@ -44,23 +49,45 @@
         <p>و امان عالي و وصول سهل</p>
     </section>
     <footer>
-        <h4 id="h4_pages">صفحاتنا</h4>
-        <ul class="pages">
-            <li><a href="homepage.html" class="footer_links">الصفحة الرئيسية</a></li>
-            <li><a href="host.html" class="footer_links">الاستضافات</a></li>
-            <li><a href="#main_container" class="footer_links">الدومينز</a></li>
-        </ul>
-        <h4>تواصل معنا</h4>
-        <ul style="margin-right:auto" class="social">
-            <li class="footer_icons"><i class="fi fi-brands-twitter"></i></li>
-            <li class="footer_icons"><i class="fi fi-brands-instagram"></i></li>
-            <li class="footer_icons"><i class="fi fi-brands-discord"></i></li>
-        </ul>
-        <p class="copy_right">©جميع الحقوق محفوظة لدى منصة داتا هوست 2023</p>
-        <div class="about_fot">
-            <h2>من نحن؟</h2>
-            <p>نحن منصة داتا هوست نقدم لك استضافات ويب باقوى انواع الحماية<br>ونقدم دومينز بضمان وافضل اسعار</p>
+        <div class="about_us">
+            <h1 id="about-title">من نحن ؟</h1>
+            <p id="p-about">نحنُ منصة داتا هوست نقدم لكم أفضل الخدمات ومنها خدمة
+                <br>إستضافة المواقع الإلكترونية ، وخدمة الدومين ونقدمها لكم
+                <br>بأرخص الأسعار وبدعم فني يستمر 24/7 .
+            </p>
+        </div>
+        <div class="list">
+            <div class="links">
+                <h1 class="links_title">روابط قد تهمك</h1>
+                <a href="#">الرئيسية</a>
+                <br>
+                <a href="#">الدومين</a>
+                <br>
+                <a href="#">الإستضافات</a>
+                <br>
+                <a href="#">تواصل معنا</a>
+            </div>
+            <div class="links">
+                <h1 class="links_title">التواصل الإجتماعي</h1>
+                <div class="brands">
+                    <a href="#"><i id="brand" class="fi fi-brands-twitter"></i></a>
+                    <br>
+                    <a href="#"><i id="brand" class="fi fi-brands-instagram"></i></a>
+                    <br>
+                    <a href="#"><i id="brand" class="fi fi-brands-discord"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
+    <div class="copyright">
+        <h1>جميع الحقوق محفوظة لدى منصة داتا هوست 2023©</h1>
+    </div>
+    <div class="devlpoers">
+        <h1>القائمين على المشروع</h1>
+        <ul>
+            <li>سعد العتيبي</li>
+            <li>سعود الفراج</li>
+        </ul>
+    </div>
 </body>
 </html>

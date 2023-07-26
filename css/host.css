@@ -12,40 +12,48 @@ main
     width: 100%;
     height: 90vh;
     display:flex;
-    gap:1.5%;
+    gap:8%;
     justify-content: center;
     align-items: center;
 }
 .card
 {
     border:solid 2px;
-    width: calc(30%);
+    width: calc(25%);
     height: 53.5%;
-    border:solid 2px #ababab;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border:none;
+    transition:0.5s ease;
     border-radius:15px;
+    padding-top:15px;
     text-align: center;
-
+}
+.card:hover
+{
+    box-shadow: 1px 2px 31px -2px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 1px 2px 31px -2px rgba(0,0,0,0.61);
+    -moz-box-shadow: 1px 2px 31px -2px rgba(0,0,0,0.61);
 }
 #by
 {
-    transform:translateY(-270%)
+    transform:translateY(-250%)
 }
 #by_1
 {
-    transform:translateY(-150%);
+    transform:translateY(-250%);
 }
 .buy
 {
-    width:45%;
+    width:55%;
     border-radius: 8px;
     cursor:pointer;
-    height: 10%;
+    height: 12%;
     z-index: 1;
     border:solid black 1px;
     position:relative;
     font-family: 'IBM Plex Sans Arabic'; 
     transition:0.5s;
-    font-size:19px;
+    font-size:23px;
     /* transform:translateY(-125%); */
     margin-top:150px;
     background-color:rgb(255, 255, 255);
@@ -82,4 +90,54 @@ section
     color:white;
     text-align: center;
     height: 12vh;
+}
+#sheild
+{
+    color: #155bef;
+    position:absolute;
+    margin-right:0.5%;
+    font-size:large;
+}
+#email
+{
+    position:absolute;
+    color:#155bef;
+    margin-top:0.2%;
+    font-size:large;
+    margin-right:0.6%;
+}
+#storage
+{
+    position:absolute;
+    color:#155bef;
+    margin-right:0.4%;
+}
+p
+{
+    font-family:Poppins;
+}
+#true
+{
+    color:green;
+    position:absolute;
+    font-size:large;
+    margin-right:0.5%;
+}
+#false
+{
+    color:red;
+    margin-right:0.5%;
+    position:absolute;
+    font-size: large;
+}
+@keyframes liner_cards{
+    0%{
+        background: linear-gradient(30deg, rgba(75,75,208,1) 29%, rgba(91,93,93,1) 81%);
+    }
+    50%{
+        background: linear-gradient(90deg, rgba(75,75,208,1) 29%, rgba(91,93,93,1) 81%);
+    }
+    100%{
+        background: linear-gradient(180deg, rgba(75,75,208,1) 29%, rgba(91,93,93,1) 81%);
+    }
 }
