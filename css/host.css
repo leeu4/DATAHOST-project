@@ -25,6 +25,7 @@ main
     border:none;
     transition:0.5s ease;
     border-radius:15px;
+    cursor:pointer;
     padding-top:15px;
     text-align: center;
 }
@@ -63,7 +64,7 @@ main
 {
     content:"";
     position:absolute;
-    transition:0.3s linear;
+    transition:0.3s ease-in-out;
     top:0;
     right:0;
     border-radius: 4px;
