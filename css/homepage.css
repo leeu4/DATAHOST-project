@@ -16,10 +16,13 @@ main h1 {
     border-top: 3px solid #155bef;
     width: 300px;
     color: #155bef;
+    font-size: xx-large;
 }
 
 main p {
     margin-right: 10%;
+    font-size: large;
+    font-weight: 500;
 }
 
 .btns {
