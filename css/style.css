@@ -11,6 +11,10 @@
     text-decoration: none;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 body {
    font-family: 'IBM Plex Sans Arabic'; 
 }
@@ -22,9 +26,12 @@ header {
     position: fixed;
     display: flex;
     align-items: center;
-    padding-bottom: -150%;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.162) 0px 7px 29px 0px;
+    background-image: url('/img/DataHost.png');
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position: center right 55px;
  }
  
  .logo {
@@ -45,6 +52,8 @@ nav {
 nav a {
    padding: 8px 25px;
    margin-left: 15px;
+   font-weight: 550;
+   font-size: 17px;
    border-radius: 7px;
    color: rgb(11, 9, 9);
    transition: .18s ease-in-out;
@@ -53,6 +62,11 @@ nav a {
 nav a:hover {
    background-color: whitesmoke;
    color: #155bef;
+   
+}
+
+#icon-serv {
+   transform: translateX(10%);
 }
 
 .left-nav {
@@ -61,7 +75,7 @@ nav a:hover {
    justify-content: left;
 }
 
-footer{
+/* footer{
    display:flex;
    justify-content: end;
    align-items: center;
@@ -99,7 +113,7 @@ ul
 }
 .about_fot
 {
-   margin-right:1%;
+   margin-right:2%;
    display:flex;
    text-align: right;
    flex-direction: column;
@@ -121,4 +135,105 @@ h4
     transform:translate(50%,-189%);
     text-decoration:overline #155bef;
     color:#155bef;
+}
+
+#h4_pages {
+   transform: translate(145% ,-180%);
+} */
+
+footer {
+   display: flex;
+   background-color: #151B23;
+   width: 100%;
+   margin-top: 25%;
+   padding-top: 5%;
+   border-top: 1.5px solid #ccc;
+}
+
+.about_us {
+   margin-right: 3%;
+}
+
+#about-title{
+   font-weight: 500;
+   text-align: center;
+   border-radius: 6px;
+   width: 150px;
+   color: white;
+   border-top: 5px solid #155bef;
+}
+
+#p-about {
+   font-size: large;
+   font-weight: 500;
+   color: white;
+}
+
+.list {
+   width: 50%;
+   display: flex;
+   justify-content: left;
+   flex-direction: row;
+   gap: 8%;
+   margin-right: 10%;
+}
+
+.links a {
+   color: white;
+   margin-right: 25%;
+   text-align: center;
+   transition: .25s ease-in-out;
+}
+
+.links a:hover {
+   color: #155bef;
+}
+
+.links_title {
+   border-top: 3px solid #155bef;
+   color: white;
+   border-radius: 4px;
+   font-size: large;
+   font-weight: 500;
+}
+
+
+.brands {
+   display: flex;
+   flex-direction: row;
+   margin-left: 30%;
+   margin-top: 10px;
+}
+
+#brand {
+   transition: .25s ease-in-out;
+}
+
+#brand:hover {
+   color: #155bef;
+}
+
+.copyright {
+   width: 100%;
+   background-color: #151B23;
+   height: 2vw;
+   padding-top: 8%;
+}
+.copyright h1{
+   text-decoration: 2px overline rgba(255, 255, 255, 0.493);
+   color: rgba(255, 255, 255, 0.619);
+   font-size: smaller;
+   text-align: center;
+}
+
+.devlpoers {
+   width: 100%;
+   background-color: #151B23;
+   padding-top: 10%;
+}
+
+.devlpoers h1 , li {
+   color: white;
+   font-size: smaller;
+   text-align: center;
 }

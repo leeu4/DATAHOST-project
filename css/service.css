@@ -4,27 +4,26 @@ main {
     margin: auto;
     text-align: center;
 }
-h1 {
-    margin-bottom: 10px;
-}
 
 .cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
+    height: 40vw;
 }
 
 .card {
     margin: auto;
-    width: 700px;
-    height: 200px;
+    width: 48%;
+    height: 15.8vw;
     border-radius: 15px;
     text-align: right;
     color: rgb(8, 8, 8);
     transition: .25s ease-in-out;
     background-image: url('/img/Cloud\ hosting-amico.png');
     transform: translateY(15%);
-    background-size: 200px;
+    background-size: 35%;
     padding-right: 25px;
     background-repeat: no-repeat;
     background-position: center right;
@@ -44,19 +43,20 @@ h1 {
 }
 
 .card-btn {
-    transform: translate(-90% ,40%);
+    transform: translate(-2% ,50%);
     position: absolute;
-    padding: 6px 50px;
-    font-size: 18px;
+    padding: 1% 8%;
+    font-size: larger;
     font-weight: 500;
     background-color: #186DFD;
     color: white;
     border-radius: 8px;
-}
-#card-top{
-    transform: translateY(-15%);
+    transition: .25s ease-in;
 }
 
+.card-btn:hover {
+    background-color: rgb(28, 86, 188);
+}
 #card-top:hover {
     transform: scale(1.09);
 }
