@@ -75,71 +75,45 @@ nav a:hover {
    justify-content: left;
 }
 
-/* footer{
-   display:flex;
-   justify-content: end;
-   align-items: center;
-   background-color:#ffffff;
-   height: 34vh;
-   border-top: 1.5px solid #ccc;
-   margin-top: 10%;
-}
-ul
-{
-   margin-right: 3%;
-   text-align: center;
-   list-style: none;
-}
-.footer_icons
-{
-   transition:0.3s;
-   transform:translateY(60%);
-   font-size:19px;
-}
-.footer_icons:hover
-{
-   color:gray;
-   cursor: pointer;
-}
-.footer_links
-{
-   text-decoration: none;
-   color:black;
-   transition:0.2s;
-}
-.footer_links:hover
-{
-   color:#155bef;
-}
-.about_fot
-{
-   margin-right:2%;
-   display:flex;
-   text-align: right;
-   flex-direction: column;
-}
-h2
-{
-   color:#155bef;
-   text-decoration:overline;
-}
-.copy_right
-{
-   text-decoration: overline 0.5px rgba(98, 97, 97, 0.575);
-   align-self: end;
-   transform: translateX(-40%);
+form {
+   margin: auto;
+   width: 40%;
+   height: 15vw;
+   background-color: red;
+   border-radius: 15px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-h4
-{
-    transform:translate(50%,-189%);
-    text-decoration:overline #155bef;
-    color:#155bef;
+input {
+   margin-bottom: 10px;
 }
 
-#h4_pages {
-   transform: translate(145% ,-180%);
-} */
+input[type='text'] {
+   padding: 2%;
+   width: 50%;
+   border-radius: 5px;
+   font-family: 'IBM Plex Sans Arabic'; 
+   outline: none;
+}
+
+input[type='email'] {
+   padding: 2%;
+   width: 50%;
+   border-radius: 5px;
+   font-family: 'IBM Plex Sans Arabic'; 
+   outline: none;
+}
+
+textarea {
+   padding: 2%;
+   width: 50%;
+   height: 1vw;
+   font-family: 'IBM Plex Sans Arabic'; 
+   border-radius: 5px;
+   font-weight: 400;
+   font-size: 13px;
+   outline: none;
+}
 
 footer {
    display: flex;
@@ -215,26 +189,14 @@ footer {
 
 .copyright {
    width: 100%;
-   background-color: #151B23;
    height: 2vw;
    padding-top: 8%;
+   background-color: #151B23;
 }
 .copyright h1{
    text-decoration: 2px overline rgba(255, 255, 255, 0.493);
    color: rgba(255, 255, 255, 0.619);
    font-size: smaller;
    text-align: center;
-}
-
-.devlpoers {
-   width: 100%;
    background-color: #151B23;
-   padding-top: 10%;
-
-}
-
-.devlpoers h1 , li {
-   color: white;
-   font-size: smaller;
-   text-align: center;
 }
