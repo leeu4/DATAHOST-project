@@ -68,13 +68,13 @@ main
     left:0;
     bottom:0;
     background-color:#155bef;
-    transform:scaleX(0);
+    transform:scaleY(0);
     z-index:-1;
-    transform-origin:left;
+    transform-origin:bottom;
 }
 .buy:hover::before
 {
-    transform:scaleX(1);
+    transform:scaleY(1);
 }
 .buy:hover
 {
@@ -97,7 +97,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transform:translateY(190%)
+    transform:translateY(160%)
 }
 html{
     scroll-behavior: smooth;
